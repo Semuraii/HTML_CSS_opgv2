@@ -32,16 +32,16 @@ body {
   justify-content: space-between;
 }
 
-.sedan {
+.tier-1 {
+  background-color: #9d4edd;
+}
+
+.tier-2 {
   background-color: #7b2cbf;
 }
 
-.suv {
+.tier-3 {
   background-color: #5a189a;
-}
-
-.luxury {
-  background-color: #3c096c;
 }
 
 .icon {
@@ -62,7 +62,7 @@ p {
 }
 
 button {
-  background: white;
+  background: #e0aaff;
   color: inherit;
   font-weight: bold;
   border: none;
@@ -73,5 +73,5 @@ button {
 }
 
 button:hover {
-  background: #ddd;
+  background: #c77dff;
 }
